@@ -1,8 +1,9 @@
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import  {DiScala} from 'react-icons/di'
+import  {GiPokecog} from 'react-icons/gi'
+import "@fontsource/dosis/300.css"
 
-export const Nav = styled`
+export const Nav = styled.nav`
     background: ${({active}) => active ? "#fff" : "linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100% )"};
     height: 80px;
     display: flex;
@@ -34,12 +35,14 @@ export const NavLogo = styled(Link)`
     cursor: pointer;
     text-decoration: none;
     font-size: 1.5rem;
+    font-family: 'Dosis', sans-serif;
     display: flex;
     align-items: center;
 `
 
-export const NavIcon = styled(DiScala)`
+export const NavIcon = styled(GiPokecog)`
     margin: 0 0.5rem 0 2rem;
+    
 `
 
 export const MobileIcon = styled.div`
