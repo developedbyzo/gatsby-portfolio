@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}, Designed by
           {` `}
-          <a href="https://developedByZo.com" target="_blank">developedByZo</a>
+          <a href="https://developedByZo.com" target="_blank" rel="noreferrer">developedByZo</a>
           , Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
